@@ -64,11 +64,11 @@ Pasos
 ![](Aspose.Words.b8875f24-69c1-4851-827f-55faeee7521f.005.jpeg)
 
 8. Finalizado el script y dependiendo de sus selecciones anteriores, se le entregará varios datos que debe guardar, como;
-   A- .usuario administrador
-   B-. contraseña para usuario administrador
-   C-. url del proyecto
-   D-. ubicación del proyecto dentro del servidor
-   E-. clave ssh para añadir a gitlab (obligatorio para quienes seleccionan la instalación de SSH)
+   A - usuario administrador
+   B -  contraseña para usuario administrador
+   C - url del proyecto
+   D - ubicación del proyecto dentro del servidor
+   E - clave ssh para añadir a gitlab (obligatorio para quienes seleccionan la instalación de SSH)
 
 Enlaces de interés
 
