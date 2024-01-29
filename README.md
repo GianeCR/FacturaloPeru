@@ -5,9 +5,6 @@ Docker | GitLab | Opción SSL | Opción SSH
 Facturador PRO4
 
 
-```bash
-<span style="color:black">descargadlo con ad</span>
-```
 
 
 Descripción
@@ -30,11 +27,13 @@ Requisitos previos
 Pasos
 
 1. Acceder a su instancia vía SSH.
-2. Loguearse como super usuario ejecute **sudo su**
-3. Clonar el snippet de gitlab que contiene el script git clone <https://gitlab.com/snippets/2079063.git> script
-4. Ingrese a la carpeta clonada cd **script**
-5. Dar permisos de ejecución al script chmod +x install.sh
-6. El comando a utilizar para iniciar el despliegue requiere de un parámetro principalmente:
+2. Loguearse como super usuario ejecute:
+   ```bash  sudo su ```
+4. Clonar el snippet de gitlab que contiene el script git clone:
+   ```bash  <https://gitlab.com/snippets/2079063.git> ```
+6. Ingrese a la carpeta clonada cd **script**
+7. Dar permisos de ejecución al script chmod +x install.sh
+8. El comando a utilizar para iniciar el despliegue requiere de un parámetro principalmente:
 
    ./install.sh [dominio]
 
