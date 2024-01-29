@@ -49,28 +49,28 @@ Pasos
 ``` ./install.sh facturador.pro  ```
 
 7. Una vez ejecutado el comando iniciará el proceso de actualización del sistema, en el proceso se le solicitará:
- 1. el usuario y contraseña de GitLab, para que se pueda descargar el proyecto en su instancia
- 2. si desea instalar SSL gratuito, tenga en cuenta que este debe ser actualizado cada 90 días, el mensaje será el siguiente:
+ A. el usuario y contraseña de GitLab, para que se pueda descargar el proyecto en su instancia
+ B. si desea instalar SSL gratuito, tenga en cuenta que este debe ser actualizado cada 90 días, el mensaje será el siguiente:
      instalar con SSL? (debe tener acceso al panel de su dominio para editar/agregar records TXT). si[s] no[n]![](![image](https://github.com/GianeCR/FacturaloPeru/assets/125288026/dece3362-9b7d-4990-9c00-3fe2ea9591bb)
 )
-  a. deberá contestar con “s” o “n” para continuar
-  b. si selecciona **SÍ**, deberá contestar las siguientes preguntas con “y”, son 2 en total, seguidamente se le ofrecerá un código que debe añadir en un récord tipo TXT en su dominio quedando como **\_acme-challenge.example.com** o simplemente **\_acme-challenge** dependerá de su proveedor.
-  c. para continuar presione **enter,** luego deberá repetir las acciones para añadir![](Aspose.Words.b8875f24-69c1-4851-827f-55faeee7521f.003.jpeg) un segundo código y habrá finalizado la configuración, si el proceso es exitoso la ejecución del script continuará.
-3. si desea obtener y gestionar actualizaciones automáticas, deberá disponer de su sesión de gitlab al momento
+ I. deberá contestar con “s” o “n” para continuar
+ II. si selecciona **SÍ**, deberá contestar las siguientes preguntas con “y”, son 2 en total, seguidamente se le ofrecerá un código que debe añadir en un récord tipo TXT en su dominio quedando como **\_acme-challenge.example.com** o simplemente **\_acme-challenge** dependerá de su proveedor.
+III. para continuar presione **enter,** luego deberá repetir las acciones para añadir![](Aspose.Words.b8875f24-69c1-4851-827f-55faeee7521f.003.jpeg) un segundo código y habrá finalizado la configuración, si el proceso es exitoso la ejecución del script continuará.
+C. si desea obtener y gestionar actualizaciones automáticas, deberá disponer de su sesión de gitlab al momento
 
 configurar clave SSH para actualización automática? (requiere acceso a https://gitlab.com/profile/keys). si[s] no[n]![](Aspose.Words.b8875f24-69c1-4851-827f-55faeee7521f.004.png)
 
-1. deberá contestar con “s” o “n” para continuar
-1. de seleccionar SÍ, al final del despliegue se le dará un extracto de texto que debe añadir a su configuración de gitlab
+I. deberá contestar con “s” o “n” para continuar
+II. de seleccionar SÍ, al final del despliegue se le dará un extracto de texto que debe añadir a su configuración de gitlab
 
 ![](Aspose.Words.b8875f24-69c1-4851-827f-55faeee7521f.005.jpeg)
 
 8. Finalizado el script y dependiendo de sus selecciones anteriores, se le entregará varios datos que debe guardar, como;
-1. usuario administrador
-1. contraseña para usuario administrador
-1. url del proyecto
-1. ubicación del proyecto dentro del servidor
-1. clave ssh para añadir a gitlab (obligatorio para quienes seleccionan la instalación de SSH)
+A. usuario administrador
+B. contraseña para usuario administrador
+C. url del proyecto
+D. ubicación del proyecto dentro del servidor
+E. clave ssh para añadir a gitlab (obligatorio para quienes seleccionan la instalación de SSH)
 
 Enlaces de interés
 
