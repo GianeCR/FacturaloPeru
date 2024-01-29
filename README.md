@@ -48,27 +48,42 @@ Pasos
 
 ``` ./install.sh facturador.pro  ```
 
-7. Una vez ejecutado el comando iniciará el proceso de actualización del sistema, en el proceso se le solicitará:
-   A. el usuario y contraseña de GitLab, para que se pueda descargar el proyecto en su instancia
-   B. si desea instalar SSL gratuito, tenga en cuenta que este debe ser actualizado cada 90 días, el mensaje será el siguiente:
-     instalar con SSL? (debe tener acceso al panel de su dominio para editar/agregar records TXT). si[s] no[n]![](![image](https://github.com/GianeCR/FacturaloPeru/assets/125288026/dece3362-9b7d-4990-9c00-3fe2ea9591bb)
-)
-      I. deberá contestar con “s” o “n” para continuar
-      II. si selecciona **SÍ**, deberá contestar las siguientes preguntas con “y”, son 2 en total, seguidamente se le ofrecerá un código que debe añadir en un récord tipo TXT en su dominio quedando como **\_acme-challenge.example.com** o simplemente **\_acme-challenge** dependerá de su proveedor.
-      III. para continuar presione **enter,** luego deberá repetir las acciones para añadir![](Aspose.Words.b8875f24-69c1-4851-827f-55faeee7521f.003.jpeg) un segundo código y habrá finalizado la configuración, si el proceso es exitoso la ejecución del script continuará.
-   C. si desea obtener y gestionar actualizaciones automáticas, deberá disponer de su sesión de gitlab al momento configurar clave SSH para actualización automática? (requiere acceso a https://gitlab.com/profile/keys). si[s] no[n]![](Aspose.Words.b8875f24-69c1-4851-827f-55faeee7521f.004.png)
+7. Una vez ejecutado el comando, iniciará el proceso de actualización del sistema, durante el cual se le solicitará:
 
-      I. deberá contestar con “s” o “n” para continuar
-      II. de seleccionar SÍ, al final del despliegue se le dará un extracto de texto que debe añadir a su configuración de gitlab
+   A. Usuario y contraseña de GitLab, para que pueda descargar el proyecto en su instancia.
+
+   B. Si desea instalar SSL gratuito, tenga en cuenta que debe ser actualizado cada 90 días. El mensaje será el siguiente:
+
+      ```
+      instalar con SSL? (debe tener acceso al panel de su dominio para editar/agregar records TXT). si[s] no[n]!
+      ```
+      
+      I. Deberá contestar con "s" o "n" para continuar.
+      
+      II. Si selecciona **SÍ**, deberá responder las siguientes preguntas con "y". Son 2 en total. Posteriormente, se le ofrecerá un código que debe agregar en un registro tipo TXT en su dominio, quedando como **\_acme-challenge.example.com** o simplemente **\_acme-challenge**, dependiendo de su proveedor.
+
+      III. Para continuar, presione **enter**. Luego deberá repetir las acciones para agregar un segundo código. Una vez completadas estas acciones, habrá finalizado la configuración. Si el proceso es exitoso, la ejecución del script continuará.
+
+   C. Si desea obtener y gestionar actualizaciones automáticas, deberá disponer de su sesión de GitLab al momento de configurar la clave SSH para actualización automática (requiere acceso a [https://gitlab.com/profile/keys](https://gitlab.com/profile/keys)).
+
+      ```
+      si[s] no[n]!
+      ```
+
+      I. Deberá contestar con "s" o "n" para continuar.
+      
+      II. Si selecciona **SÍ**, al final del despliegue se le dará un extracto de texto que debe añadir a su configuración de GitLab.
+
 
 ![](Aspose.Words.b8875f24-69c1-4851-827f-55faeee7521f.005.jpeg)
 
-8. Finalizado el script y dependiendo de sus selecciones anteriores, se le entregará varios datos que debe guardar, como;
-   A - usuario administrador
-   B -  contraseña para usuario administrador
-   C - url del proyecto
-   D - ubicación del proyecto dentro del servidor
-   E - clave ssh para añadir a gitlab (obligatorio para quienes seleccionan la instalación de SSH)
+8. Finalizado el script y dependiendo de sus selecciones anteriores, se le entregarán varios datos que debe guardar, como:
+
+   A. Usuario administrador
+   B. Contraseña para el usuario administrador
+   C. URL del proyecto
+   D. Ubicación del proyecto dentro del servidor
+   E. Clave SSH (obligatoria para aquellos que seleccionaron la instalación de SSH)
 
 Enlaces de interés
 
