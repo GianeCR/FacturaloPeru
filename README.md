@@ -20,11 +20,8 @@ Requisitos previos
 
    * [guía para acceder con Winscp (gestión de archivos con aplicación de escritorio)](https://docs.google.com/document/d/1Xpri2102N4b5C-dG-FVPXW5ZWjEz5S4iDjpvl7Zwq2E/edit)
 
-3. Si es posible configurar su dominio apuntando a su instancia para que al finalizar la instalación se encuentre disponible el aplicativo. Edite los récords A y CNAME donde A debe contener su IP y CNAME el valor \* (asterisco) para que se tomen los subdominios registrados por la herramienta.![](![image](https://github.com/GianeCR/FacturaloPeru/assets/125288026/f6a85fe0-83b6-4383-9913-ba3bccaaf3f6)
-(https://github.com/GianeCR/FacturaloPeru/assets/125288026/9a2dcd4c-2b5c-41d7-9cc6-586e2074897a)
-[(https://github.com/GianeCR/FacturaloPeru/assets/125288026/d33c2b3d-c376-46b4-a297-c95b7a717367)
-](https://github.com/GianeCR/FacturaloPeru/assets/125288026/6aa3cd5e-7c89-401e-8823-dec95ff22c29)
-)
+3. Si es posible configurar su dominio apuntando a su instancia para que al finalizar la instalación se encuentre disponible el aplicativo. Edite los récords A y CNAME donde A debe contener su IP y CNAME el valor \* (asterisco) para que se tomen los subdominios registrados por la herramienta.![]
+
 3. En caso de contar con servicios instalados en su instancia como mysql, apache o nginx, debe detenerlos, ya que estos ocupan los puertos que pasarán a usar el aplicativo con los contenedores de Docker.
 
 Pasos
