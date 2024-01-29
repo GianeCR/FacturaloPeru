@@ -46,7 +46,7 @@ Pasos
 
 **por ejemplo:**
 
-``` ./install.sh facturador.pro
+``` ./install.sh facturador.pro  ```
 
 7. Una vez ejecutado el comando iniciará el proceso de actualización del sistema, en el proceso se le solicitará:
 1. el usuario y contraseña de GitLab, para que se pueda descargar el proyecto en su instancia
