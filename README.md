@@ -4,12 +4,10 @@ Docker | GitLab | Opción SSL | Opción SSH
 
 Facturador PRO4
 
-```bash
-\```bash
-\033[0;30m# descargadlo con ad
-\033[0m
-\```
 
+```bash
+<span style="color:black">descargadlo con ad</span>
+```
 
 
 Descripción
