@@ -28,9 +28,9 @@ Pasos
 
 1. Acceder a su instancia vía SSH.
 2. Loguearse como super usuario ejecute:
-   ```bash  sudo su ```
+   ```bash  sudo su 
 4. Clonar el snippet de gitlab que contiene el script git clone:
-   ```bash  <https://gitlab.com/snippets/2079063.git> ```
+   ```bash  <https://gitlab.com/snippets/2079063.git> 
 6. Ingrese a la carpeta clonada cd **script**
 7. Dar permisos de ejecución al script chmod +x install.sh
 8. El comando a utilizar para iniciar el despliegue requiere de un parámetro principalmente:
