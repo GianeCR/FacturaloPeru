@@ -79,11 +79,12 @@ Pasos
 
 8. Finalizado el script y dependiendo de sus selecciones anteriores, se le entregarán varios datos que debe guardar, como:
 
-   A. Usuario administrador
-   B. Contraseña para el usuario administrador
-   C. URL del proyecto
-   D. Ubicación del proyecto dentro del servidor
-   E. Clave SSH (obligatoria para aquellos que seleccionaron la instalación de SSH)
+   - **A.** Usuario administrador
+   - **B.** Contraseña para el usuario administrador
+   - **C.** URL del proyecto
+   - **D.** Ubicación del proyecto dentro del servidor
+   - **E.** Clave SSH (obligatoria para aquellos que seleccionaron la instalación de SSH)
+
 
 Enlaces de interés
 
